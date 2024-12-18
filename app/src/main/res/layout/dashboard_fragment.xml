@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/home3"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnAddGoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvUsername"
+        android:layout_marginTop="450dp"
+        android:text="@string/add_a_goal" />
+
+    <Button
+        android:id="@+id/btnViewTasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAddGoal"
+        android:layout_marginTop="48dp"
+        android:text="@string/view_unfinished_tasks" />
+
+    <Button
+        android:id="@+id/btnViewProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnViewTasks"
+        android:layout_marginTop="48dp"
+        android:text="@string/progress_page" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="395dp"
+        android:layout_height="510dp"
+        app:srcCompat="@drawable/logo" />
+</RelativeLayout>
